@@ -565,31 +565,35 @@ section.portifolio .flex {
 
 /* Estilo do Rodapé */
 
-
 footer {
     padding: 50px 4%;
-    
-
+    display: flex;
+    justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+    align-items: center;      /* Centraliza o conteúdo verticalmente */
+    width: 100%;
 }
 
-footer .interface{
-    margin: 20px 0;
+footer .interface {
+    width: 100%;
+    max-width: 1200px;  /* Ajusta o tamanho máximo do conteúdo */
+    padding: 0 20px;    /* Adiciona um padding lateral */
 }
-
 
 footer .flex {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 footer .line-footer {
     padding: 20px 0;
-
+    width: 100%;  /* Garante que a linha ocupe toda a largura */
 }
 
 .borda {
     border-top: 2px solid #13dad6;
 }
-
 
 footer .line-footer p i {
     color: #13dad6;
@@ -599,19 +603,17 @@ footer .line-footer p i {
 footer .line-footer p a {
     color: #fff;
     text-decoration: none;
-
 }
 
-footer .line-footer .flex .logo-footer img{
+footer .line-footer .flex .logo-footer img {
     transition: transform .2s;
     cursor: pointer;
-} /* Defini a transição e a quantidade de segundos */
+}
 
-
-
-footer .line-footer .flex .logo-footer:hover img{
+footer .line-footer .flex .logo-footer:hover img {
     transform: scale(1.05);
-} /* Transforma a imagem em uma imagem maior  */
+}
+
 
 
 

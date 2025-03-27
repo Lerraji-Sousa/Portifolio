@@ -533,7 +533,7 @@ section.portifolio .flex {
     align-items: center;
     justify-content: center;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 600;<p
     color: #fff;
     opacity: 0;
     transition: .5s;
